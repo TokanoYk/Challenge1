@@ -13,9 +13,16 @@ int main()
 	for(int i = 1; i < 10; i++)
 	{
 		printf("<th>%2d\n"i);
+	}
 
+	for(int j = 1 ; j < 10; j++)
+	{
+		printf("<th>%d\n",j);
 
-
+		for(int k = 1 ; k < 10; k++)
+		{
+			printf("<td>%d\n",j*k);
+		}
 	}
 	return 0;
 }
