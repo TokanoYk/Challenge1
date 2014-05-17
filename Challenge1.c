@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-//	‚R‚c”Šw‚Ì‰Û‘è
+//	3D Mathematics Challenge
 int main()
 {
+	int i,j;
 	printf("<!DOCTYPE html1>\n");
 	printf("<mata charset=\"UTF-8\">\n");
 	printf("<title>99</title>\n");
@@ -10,18 +11,16 @@ int main()
 	printf("<table>\n");
 	
 	printf("<th>");
-	for(int i = 1; i < 10; i++)
-	{
+	
+	for(i = 1; i < 10; i++){
 		printf("<th>%2d\n"i);
 	}
 
-	for(int j = 1 ; j < 10; j++)
-	{
+	for(i = 1 ; i < 10; i++){
 		printf("<th>%d\n",j);
 
-		for(int k = 1 ; k < 10; k++)
-		{
-			printf("<td>%d\n",j*k);
+		for(j = 1 ; j < 10; j++){
+			printf("<td>%d\n",i*j);
 		}
 	}
 	return 0;
